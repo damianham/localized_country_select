@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{localized_country_select}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Kristian Mandrup"]
+  s.authors = ["Kristian Mandrup","Damian Hamill"]
   s.date = %q{2011-01-18}
-  s.description = %q{Localized country select for Rails 2.3+ with options to control countrys to display}
+  s.description = %q{Localized country select for Rails 2.3+ /3.2+ with options to control countrys to display}
   s.email = %q{kmandrup@gmail.com}
   s.extra_rdoc_files = [
     "README.textile"
@@ -38,11 +38,11 @@ Gem::Specification.new do |s|
     "test/localized_country_select_test.rb",
     "uninstall.rb"
   ]
-  s.homepage = %q{http://github.com/kristianmandrup/localized_country_select}
+  s.homepage = %q{http://github.com/damianham/localized_country_select}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Localized country select for Rails 2.3+}
+  s.summary = %q{Localized country select for Rails 2.3+/3.2+}
   s.test_files = [
     "test/localized_country_select_test.rb"
   ]

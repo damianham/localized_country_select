@@ -5,6 +5,9 @@ storing country information as country _code_ (eg. 'es'), not _name_ (eg. 'Spain
 
 Uses the Rails internationalization framework ("I18n":http://rails-i18n.org) for translating the names of countries.
 Requires Rails 2.2 (released November 21st, 2008) or later versions.
+
+This version works with Rails 3.2.2
+
 Country names are loaded from hashes in plugin directory, according to <tt>I18n.locale</tt> value.
 
 You can easily translate country codes in your application like this:
@@ -41,9 +44,9 @@ See http://github.com/rails/country_select/tree/master/lib/country_select.rb
 
 h2. Install & Usage
 
-<pre>$ rails plugin install https://github.com/kristianmandrup/localized_language_select.git</pre>  
+In your Gemfile add
 
-It should be converted into a gem...
+<pre>gem 'localized_country_select', :git => 'git://github.com/damianham/localized_country_select.git'</pre>  
 
 h2. Example
 
